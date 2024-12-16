@@ -1,5 +1,6 @@
 import Counter from "./Counter"
 import Bgchanger from "./Bgchanger"
+import PasswordGenerator from "./PasswordGenerator"
 
 function App() {
   
@@ -8,7 +9,9 @@ function App() {
     <>
       <h1>Welcome to our React Series</h1>
       {/* <Counter/> */}
-      <Bgchanger/>
+      {/* <Bgchanger/> */}
+      <PasswordGenerator/>
+
     </>
   )
 }
