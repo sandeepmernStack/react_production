@@ -1,12 +1,14 @@
-
-
+import Counter from "./Counter"
+import Bgchanger from "./Bgchanger"
 
 function App() {
   
 
   return (
     <>
-      <h1>Hello test</h1>
+      <h1>Welcome to our React Series</h1>
+      {/* <Counter/> */}
+      <Bgchanger/>
     </>
   )
 }

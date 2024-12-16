@@ -1,0 +1,26 @@
+.main-container{
+width: 100vw;
+height: 100vh;
+background-color: olive;
+}
+
+.buttons-container{
+    max-width: 1024px;
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    bottom: 30px;
+    left: 50%;
+    text-align: center;
+    transform: translatex(-50%);
+}
+
+.buttons-container button{
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: 0;
+    margin: 10px 20px;
+}
