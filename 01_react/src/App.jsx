@@ -1,17 +1,14 @@
-import Counter from "./Counter"
-import Bgchanger from "./Bgchanger"
-import PasswordGenerator from "./PasswordGenerator"
-
+import Footer from "./components/Footer/Footer"
+import Header from "./components/Header/Header"
+import {Outlet} from 'react-router'
 function App() {
   
 
   return (
     <>
-      <h1>Welcome to our React Series</h1>
-      {/* <Counter/> */}
-      {/* <Bgchanger/> */}
-      <PasswordGenerator/>
-
+      <Header/>
+      <Outlet/>
+      <Footer/>
     </>
   )
 }
