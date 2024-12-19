@@ -6,6 +6,7 @@ import Home from "./components/Home/Home.jsx"
 import About from './components/About/About.jsx'
 import Contact from './components/Contect/Contact.jsx'
 import Card from './components/Card/Card.jsx'
+import TodoApp from './components/TodoApp/TodoApp.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<About/>}/>
       <Route path='contact' element={<Contact/>}/>
       <Route path='card' element={<Card/>}/>
+      <Route path='todo' element={<TodoApp/>}/>
     </Route>
   )
 )
